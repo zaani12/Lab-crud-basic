@@ -7,4 +7,4 @@
 - Pagination
 - Search (AJAX) 
 - data base : have 2 tables task and project (seeders)
-- ajouter un filtre par projet
+- add  a filtr by broject 
