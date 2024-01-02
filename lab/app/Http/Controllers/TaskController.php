@@ -45,7 +45,11 @@ class TaskController extends Controller
 
     }
 
-
+    public function show(Task $task)
+    {
+        $Projects = Project::all();
+        return view('Task.show', compact('task', 'Projects'));
+    }
 
 
     
